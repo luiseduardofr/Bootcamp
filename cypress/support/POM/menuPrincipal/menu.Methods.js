@@ -8,5 +8,11 @@ export class menuMethods{
 
     }
 
+    static clickMenuSignUp(){
+
+        menuElements.menuPrincipal.SignUp.click()
+
+    }
+
 
 }

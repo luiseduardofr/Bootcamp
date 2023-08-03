@@ -6,6 +6,11 @@
 
                 "password": "21028988"
 
+        },
+
+        "validaciones": {
+
+                "successfulLogin": "Welcome Luisito21"
 
         }
 

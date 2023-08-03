@@ -28,4 +28,10 @@ export class loginMethods{
 
     }
 
+    static successfulLogin(value){
+
+        loginElements.valid.Login.should('have.text',value)
+
+    }
+
 }

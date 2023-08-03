@@ -40,4 +40,18 @@ export class loginElements {
 
     }
 
+    static get valid(){
+
+        return{
+
+            get Login(){
+
+                return cy.get('a#nameofuser')
+
+            }
+
+        }
+
+    }
+
 }
