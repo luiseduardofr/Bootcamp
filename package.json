@@ -1,0 +1,23 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "Proyecto de buenas practicas",
+  "main": "index.js",
+  "scripts": {
+    "clean-report":"rimraf ./allure-report && rimraf ./allure-results",
+    "exec-tests":"cypress run --headed -env allure=true",
+    "generate-report": "allure generate allure-results -o allure-report --clean",
+    "open-report":"allure open",
+    "test":"npm run clean-report && npm run exec-tests && npm run generate-report && npm run open-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  },
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "allure-commandline": "^2.23.1"
+  }
+}
