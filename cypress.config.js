@@ -9,5 +9,7 @@ module.exports = defineConfig({
       allureWriter(on, config);
       return config;
     },
+
+    baseUrl: "https://demoblaze.com/"
   },
 });
