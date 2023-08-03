@@ -4,13 +4,13 @@ export class loginMethods{
 
     static insertUsername(username){
 
-        loginElements.textBoxes.username.type(username)
+        loginElements.textBoxes.username.invoke('val',username)
 
     }
 
     static insertPassword(password){
 
-        loginElements.textBoxes.password.type(password)
+        loginElements.textBoxes.password.invoke('val',password)
 
     }
 

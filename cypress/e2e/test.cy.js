@@ -22,7 +22,7 @@ describe('Suite de TC demoBlaze', () => {
   it('Login', () => {
     
     menuMethods.clickMenuLogin()
-    loginMethods.login(datos.usuario,datos.password)
+    loginMethods.login(datos.login.usuario,datos.login.password)
     cy.wait(3000)
 
 
