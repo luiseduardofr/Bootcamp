@@ -14,5 +14,29 @@ export class menuMethods{
 
     }
 
+    static clickMenuCart(){
+
+        menuElements.menuPrincipal.Cart.click()
+
+    }
+
+    static clickMenuAboutUs(){
+
+        menuElements.menuPrincipal.AboutUs.click()
+
+    }
+
+    static clickMenuContact(){
+
+        menuElements.menuPrincipal.Contact.click()
+
+    }
+
+    static clickMenuHome(){
+
+        menuElements.menuPrincipal.Home.click()
+
+    }
+
 
 }

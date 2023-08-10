@@ -34,6 +34,5 @@ it('Login', () => {
     loginMethods.login(datos.login.usuario,datos.login.password)
     cy.wait(1000)
 
-
   })
 })
