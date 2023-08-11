@@ -12,6 +12,17 @@
 
                 "successfulLogin": "Welcome Luisito21"
 
+        },
+
+        "products":{
+
+
+                "phones": "Phones",
+
+                "laptops": "Laptops",
+
+                "monitors": "Monitors"
+
         }
 
 }

@@ -1,3 +1,4 @@
+import { homeMethods } from "../support/POM/Home/home.methods"
 import { loginMethods } from "../support/POM/login/login.Methods"
 import { menuMethods } from "../support/POM/menuPrincipal/menu.Methods"
 import { signUpMethods } from "../support/POM/signUp/signUp.Methods"
@@ -31,8 +32,18 @@ it('Sign Up',()=>{
 it('Login', () => {
     
     menuMethods.clickMenuLogin()
-    loginMethods.login(datos.login.usuario,datos.login.password)
-    cy.wait(1000)
+    loginMethods.login(datos.login.usuario, datos.login.password)
 
   })
+
+
+  it('Home', () => {
+    
+    homeMethods.clickOnProductCategories(datos.products.monitors)
+
+  })
+
+
+
 })
+
