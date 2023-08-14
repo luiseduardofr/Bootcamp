@@ -12,12 +12,11 @@ export class homeElements{
 
         }
 
-
     }
 
-    static product(productName){
+    static get productTable(){
 
-        return cy.contains('a',productName)
+        return cy.get('.hrefch')
 
     }
 

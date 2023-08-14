@@ -19,9 +19,9 @@ export class homeMethods{
 
     }
 
-   static clickOnProductList(productName){
+   static clickOnProductList(productList){
 
-        homeElements.product(productName).click()
+          homeElements.productTable.contains(productList).click()
 
     }
 
