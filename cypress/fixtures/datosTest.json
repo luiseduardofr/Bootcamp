@@ -57,6 +57,23 @@
                         "dell_2017_15.6_inch": "2017 Dell 15.6 Inch"
                 }
 
+        },
+
+        "formPurchase": {
+
+                "name": "Luis",
+                "country": "Arg",
+                "city": "Caba",
+                "card": "11111111111",
+                "month": "01",
+                "year": "2080"
+
+        },
+
+        "msjPurchase": {
+
+                "msj": "Thank you for your purchase!"
+
         }
 
 }
